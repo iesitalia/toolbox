@@ -6,12 +6,12 @@ import (
 	"github.com/getevo/evo/v2"
 	"github.com/getevo/evo/v2/lib/db/types"
 	"github.com/getevo/evo/v2/lib/generic"
+	"github.com/iesitalia/toolbox"
+	"github.com/iesitalia/toolbox/rest"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"reflect"
 	"strings"
-	"toolbox"
-	"toolbox/rest"
 )
 
 type Tag struct {
