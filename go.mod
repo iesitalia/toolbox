@@ -1,4 +1,4 @@
-module toolbox
+module github.com/iesitalia/toolbox
 
 go 1.21
 
