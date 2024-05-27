@@ -6,11 +6,11 @@ import (
 	"github.com/getevo/evo/v2/lib/db"
 	scm "github.com/getevo/evo/v2/lib/db/schema"
 	"github.com/getevo/evo/v2/lib/tpl"
+	"github.com/iesitalia/toolbox"
+	"github.com/iesitalia/toolbox/query"
 	"gorm.io/gorm/schema"
 	"reflect"
 	"strings"
-	"toolbox"
-	"toolbox/query"
 )
 
 // Join represents a join operation in a database query.
