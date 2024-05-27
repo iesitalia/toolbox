@@ -1,0 +1,4 @@
+github.com/getevo/evo/v2 v2.0.0-20240519102330-23db9f6908fd h1:78u6mUhrCBAxG/db0wukp4SS6IcbKExJuh/Wp4/xb4g=
+github.com/getevo/evo/v2 v2.0.0-20240519102330-23db9f6908fd/go.mod h1:woPRK7F88lh1rQy5h5LWZ7cppYlA4Y/NIARKT+jh87k=
+github.com/gosimple/unidecode v1.0.1 h1:hZzFTMMqSswvf0LBJZCZgThIZrpDHFXux9KeGmn6T/o=
+github.com/gosimple/unidecode v1.0.1/go.mod h1:CP0Cr1Y1kogOtx0bJblKzsVWrqYaqfNOnHzpgWw4Awc=
