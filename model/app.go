@@ -5,11 +5,12 @@ import (
 	"github.com/getevo/evo/v2/lib/db"
 )
 
-// Register is a function that registers models and callbacks in the database.
-// It uses the `db.UseModel` function to set up the models for the database tables.
-// The `Callback` struct is used to define a callback function that will be called after certain database operations.
-// The `Register` function creates three callback functions (`OnCreate`, `OnUpdate`, and `OnDelete`) and registers them for the corresponding database operations (create, update, and
-func Register() {
+type App struct {
+}
+
+// Register registers all the resources and sets up the router for the application.
+// For each model in `schema.Models`, it attaches a resource using the `AttachResource` method.
+func (a App) Register() error {
 	db.UseModel(TagEntity{}, TagList{})
 
 	var callback Callback
@@ -26,5 +27,17 @@ func Register() {
 	if err != nil {
 		panic(err)
 	}
+	return nil
+}
 
+func (a App) Router() error {
+	return nil
+}
+
+func (a App) WhenReady() error {
+	return nil
+}
+
+func (a App) Name() string {
+	return "rest"
 }
